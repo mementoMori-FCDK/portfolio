@@ -1,0 +1,40 @@
+body {
+    background-color: #0D0208;
+    color: #00FF41
+}
+
+html, body {
+    height: 100%;
+    width :100%;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.InfoContainer {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+
+.InfoContainer h1 {
+    text-align: center;
+}
+
+.ContactsContainer, .NavigationContainer {
+    background-image: url('../assets/matrix-blue.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    width: 20%;
+    height: 100%;
+}
